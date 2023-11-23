@@ -1,0 +1,163 @@
+/* righteous-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 1920;
+    src: url('../fonts/righteous-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+
+}
+  .frame1{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    min-width: 350px;
+    background-color: #6FFFF6 ;
+  }
+  #pic{
+    min-width: 15%;
+    height: auto;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 2%;
+    padding-right: 0%;
+    }
+    .inf1{
+        color: black;
+        font-family: 'Righteous';
+        font-size: 36px;
+        left: 25.6%;
+        margin: 5%;
+        }
+    .frameall{
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        min-width: 350px;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .frame2{
+        display: flex;
+        flex-wrap: wrap; 
+        width: 40%;
+        min-width: 350px;
+        border-radius: 90px;
+        background: linear-gradient(180deg, #6FFFF6 0%, rgba(111, 255, 246, 0.00) 100%);
+   
+    }
+    .hs{
+        color: black;
+        font-size: 36px;
+        font-family: 'Righteous';
+        margin-left: 35%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+    .hs_block{
+        color: black;
+        font-size: 36px;
+        font-family: 'Righteous';
+        margin: 5%;
+        word-break: break-all;
+    }
+    .frame3{  
+        display: flex;
+        flex-wrap: wrap; 
+        width: 40%;
+        min-width: 350px;
+        border-radius: 90px;
+        background: linear-gradient(180deg, #6FFFF6 0%, rgba(111, 255, 246, 0.00) 100%);
+        
+    }
+    .ss{
+        color: black;
+        font-size: 36px;
+        font-family: 'Righteous';
+        margin-left: 35%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+    .ss_block{
+        color: black;
+        font-size: 36px;
+        font-family: 'Righteous';
+        margin: 5%;
+        word-break: break-all;
+    }
+    .kont{
+        color: #000;
+        font-family: 'Righteous';
+        font-size: 36px;
+        font-style: normal;
+        line-height: normal;
+        padding-left: 3%;
+        word-break: break-all;
+    }
+    .poch{
+        color: #000;
+        font-family: 'Righteous';
+        font-size: 36px;
+        font-style: normal;
+        line-height: normal;
+        padding-left: 3%;
+        word-break: break-all;
+    }
+    .frame4{
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        min-width: 350px;
+        
+        justify-content: space-around;
+      }
+    .frame5{
+        width: 100%;
+        min-width: 350px;
+    }
+    .prev{
+        transform: translateY(-50%);
+        background-color: transparent;
+        margin-left: 21%;
+        margin-right: 40%;
+        margin-top: 4%;
+        border: none;
+        font-size: 50px;
+        color: black;
+      }
+    .next {
+
+      transform: translateY(-50%);
+      background-color: transparent;
+      border: none;
+      font-size: 50px;
+      color: black;
+    }
+    
+      #s1{
+       margin-left: 10%;
+       margin-top: 5%;
+        width: 80%;
+        height: auto;
+    }
+    #s2,#s3{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+        display: none;
+    }
+    .frame6{
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        min-width: 350px;
+       height: 400px;
+    }
+    .mapas{
+        width: 100%;
+        height: 100%;
+    }
+   
